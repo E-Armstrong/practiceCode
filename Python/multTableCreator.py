@@ -16,8 +16,10 @@ def multiplication_table(size):
         
     for x in topRow:
         newRow = [];
-        for y in topRow:
+        for y in topRow: 
             newRow.append(x*y)
         fullMatrix.append(newRow)
         
     return fullMatrix
+
+print(multiplication_table(1000))
